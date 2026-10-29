@@ -77,7 +77,7 @@ const COURSE = {
         },
         {
           title: "人称代词",
-          type: "info",
+          type: "phrase",
           items: [
             { pt: "eu", pron: "欧", zh: "我" },
             { pt: "você", pron: "沃塞", zh: "你 / 您（商务中常称呼客户）" },
@@ -97,7 +97,7 @@ const COURSE = {
       sections: [
         {
           title: "数字 0–100（报价必背）",
-          type: "info",
+          type: "phrase",
           items: [
             { pt: "0 zero", pron: "泽罗", zh: "0" },
             { pt: "1 um / 2 dois / 3 três", pron: "翁 / 多伊斯 / 特雷斯", zh: "1 / 2 / 3" },
@@ -376,7 +376,7 @@ const COURSE = {
     sections: [
       {
         title: "单据名称",
-        type: "info",
+        type: "phrase",
         items: [
           { pt: "Proforma Invoice (PI)", pron: "——", zh: "形式发票（下单前报价确认用）" },
           { pt: "Fatura comercial", pron: "法图拉 科梅西亚尔", zh: "商业发票" },
@@ -411,7 +411,7 @@ const COURSE = {
     sections: [
       {
         title: "现在时第三人称（最常用）",
-        type: "info",
+        type: "phrase",
         items: [
           { pt: "ser = é", pron: "埃", zh: "是（本质、属性）" },
           { pt: "estar = está", pron: "埃斯塔", zh: "在 / 处于（状态、位置）" },
@@ -468,7 +468,7 @@ const COURSE = {
     sections: [
       {
         title: "汽车部件（Auto Peças）",
-        type: "info",
+        type: "phrase",
         items: [
           { pt: "motor", pron: "莫托尔", zh: "发动机" },
           { pt: "freio", pron: "弗雷尤", zh: "刹车" },
@@ -495,7 +495,7 @@ const COURSE = {
       },
       {
         title: "汽修设备与工具（Equipamentos）",
-        type: "info",
+        type: "phrase",
         items: [
           { pt: "scanner automotivo", pron: "埃斯卡内尔 奥托莫蒂沃", zh: "汽车诊断仪 / OBD 检测仪" },
           { pt: "elevador de carro", pron: "埃莱瓦多尔 季 卡胡", zh: "汽车举升机" },
