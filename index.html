@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>葡萄牙语外贸沟通速成 · PT-BR</title>
+  <meta name="description" content="巴西葡萄牙语（PT-BR）外贸/电商沟通学习网站，从零基础到和客户顺利沟通，含发音朗读、闪卡练习与收藏。" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <!-- 顶部栏 -->
+  <header class="topbar">
+    <button class="icon-btn menu-toggle" id="menu-toggle">☰</button>
+    <span class="logo">🇧🇷</span>
+    <div>
+      <h1>葡萄牙语外贸沟通速成</h1>
+      <div class="sub">巴西葡语 PT-BR · 从零到和客户顺利沟通</div>
+    </div>
+    <div class="spacer"></div>
+    <input type="text" id="search" class="search-box" placeholder="🔍 搜索葡语 / 中文 / 发音…" />
+  </header>
+
+  <div class="layout">
+    <!-- 侧边导航 -->
+    <aside class="sidebar" id="sidebar">
+      <div class="nav-title">课程导航</div>
+      <nav id="nav"></nav>
+    </aside>
+    <div class="overlay" id="overlay"></div>
+
+    <!-- 主内容区 -->
+    <main class="content">
+      <!-- 首页 -->
+      <section id="home-view" class="view"></section>
+      <!-- 模块内容 -->
+      <section id="module-view" class="view"></section>
+
+      <!-- 闪卡练习 -->
+      <section id="flash-view" class="view">
+        <h2>🎴 闪卡练习</h2>
+        <div class="flash-area">
+          <div id="flashcard" class="flashcard"></div>
+          <div class="flash-controls">
+            <button class="ghost" id="flash-prev">← 上一张</button>
+            <button id="flash-speak">🔊 发音</button>
+            <button id="flash-next">下一张 →</button>
+            <button class="ghost" id="flash-restart">🔄 重新开始</button>
+          </div>
+          <div class="flash-progress" id="flash-progress"></div>
+          <div class="flash-hint">提示：若已收藏短语，练习将仅从收藏中抽取；否则从全部短语随机抽取。</div>
+        </div>
+      </section>
+
+      <!-- 收藏 -->
+      <section id="fav-view" class="view">
+        <div id="fav-content"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
