@@ -333,6 +333,132 @@ const COURSE = {
       },
     ],
   },
+
+  /* ---------- 模块 5：即时沟通（WhatsApp / 聊天） ---------- */
+  {
+    id: "chat",
+    name: "5 · 即时沟通短句",
+    icon: "💬",
+    sections: [
+      {
+        title: "常用回复",
+        type: "phrase",
+        items: [
+          { pt: "Recebi sua mensagem.", pron: "赫塞比 苏阿 门萨任", zh: "我收到您的消息了。" },
+          { pt: "Já vou responder.", pron: "雅 沃伊 赫斯蓬德尔", zh: "我这就回复您。" },
+          { pt: "Por favor, aguarde um momento.", pron: "波尔 法沃尔，阿瓜尔季 翁 莫门托", zh: "请稍等一下。" },
+          { pt: "Vou confirmar com a fábrica.", pron: "沃伊 孔菲尔马尔 孔 阿 法布里卡", zh: "我跟工厂确认一下。" },
+          { pt: "Deixe seu WhatsApp.", pron: "代西 塞乌 瓦茨阿普", zh: "请留一下您的 WhatsApp。" },
+          { pt: "Posso ligar para você?", pron: "波苏 利加尔 帕拉 沃塞", zh: "我可以给您打个电话吗？" },
+          { pt: "Enviarei o vídeo / foto.", pron: "恩维阿雷伊 乌 维季乌 / 福托", zh: "我会把视频 / 照片发给您。" },
+          { pt: "Obrigado pela paciência.", pron: "欧布里加多 帕拉 帕西门西亚", zh: "感谢您的耐心。" },
+        ],
+      },
+      {
+        title: "跟进与催促",
+        type: "phrase",
+        items: [
+          { pt: "Você já decidiu?", pron: "沃塞 雅 代西迪乌", zh: "您决定好了吗？" },
+          { pt: "Aguardamos seu pedido.", pron: "阿瓜达莫斯 塞乌 佩季多", zh: "我们等待您的订单。" },
+          { pt: "O preço é válido por 7 dias.", pron: "乌 普雷苏 埃 瓦利杜 波尔 7 迪亚斯", zh: "此价格 7 天内有效。" },
+          { pt: "Precisamos confirmar hoje.", pron: "普雷西扎莫斯 孔菲尔马尔 奥日", zh: "我们今天需要确认。" },
+          { pt: "Espero sua resposta.", pron: "埃斯佩罗 苏阿 赫斯波斯塔", zh: "我等您的回复。" },
+        ],
+      },
+    ],
+  },
+
+  /* ---------- 模块 6：单据与文件 ---------- */
+  {
+    id: "docs",
+    name: "6 · 单据与文件",
+    icon: "📄",
+    sections: [
+      {
+        title: "单据名称",
+        type: "info",
+        items: [
+          { pt: "Proforma Invoice (PI)", pron: "——", zh: "形式发票（下单前报价确认用）" },
+          { pt: "Fatura comercial", pron: "法图拉 科梅西亚尔", zh: "商业发票" },
+          { pt: "Lista de embalagem", pron: "利斯塔 季 恩巴拉日", zh: "装箱单 (Packing List)" },
+          { pt: "Conhecimento de Embarque (BL)", pron: "科涅西门托 季 恩巴尔基", zh: "提单" },
+          { pt: "CNPJ", pron: "塞-恩-热-佩-若塔", zh: "巴西公司税号（交易必填）" },
+          { pt: "CPF", pron: "塞-佩-埃菲", zh: "巴西个人税号" },
+          { pt: "Código HS", pron: "科迪古 阿-吉-埃-西", zh: "海关商品编码" },
+          { pt: "Certificado de origem", pron: "塞尔蒂菲卡多 季 奥里任", zh: "原产地证书" },
+          { pt: "Seguro", pron: "塞古鲁", zh: "保险" },
+        ],
+      },
+      {
+        title: "清关与税费",
+        type: "phrase",
+        items: [
+          { pt: "Imposto de importação", pron: "因帕斯托 季 因波尔塔桑", zh: "进口关税" },
+          { pt: "Despachante aduaneiro", pron: "代斯帕尚季 阿杜阿内鲁", zh: "报关行" },
+          { pt: "O imposto é pago no Brasil.", pron: "乌 因帕斯托 埃 帕古 努 布拉济尔", zh: "税费在巴西由您承担。" },
+          { pt: "Precisamos do seu CNPJ.", pron: "普雷西扎莫斯 杜 塞乌 塞恩热佩若塔", zh: "我们需要您的 CNPJ 税号。" },
+          { pt: "A mercadoria está na alfândega.", pron: "阿 梅尔卡多里亚 埃斯塔 纳 阿尔方季加", zh: "货物在海关（清关中）。" },
+        ],
+      },
+    ],
+  },
+
+  /* ---------- 模块 7：常用动词速查 ---------- */
+  {
+    id: "verbs",
+    name: "7 · 常用动词速查",
+    icon: "🔧",
+    sections: [
+      {
+        title: "现在时第三人称（最常用）",
+        type: "info",
+        items: [
+          { pt: "ser = é", pron: "埃", zh: "是（本质、属性）" },
+          { pt: "estar = está", pron: "埃斯塔", zh: "在 / 处于（状态、位置）" },
+          { pt: "ter = tem", pron: "滕", zh: "有" },
+          { pt: "fazer = faz", pron: "法斯", zh: "做 / 制造" },
+          { pt: "querer = quer", pron: "凯尔", zh: "想要" },
+          { pt: "poder = pode", pron: "波季", zh: "能够" },
+          { pt: "ir = vai", pron: "瓦伊", zh: "去 / 将要" },
+          { pt: "enviar = envia", pron: "恩维亚", zh: "发送" },
+          { pt: "precisar = precisa", pron: "普雷西扎", zh: "需要" },
+          { pt: "gostar = gosta", pron: "戈斯塔", zh: "喜欢" },
+        ],
+      },
+    ],
+  },
+
+  /* ---------- 模块 8：展会与视频会议 ---------- */
+  {
+    id: "meeting",
+    name: "8 · 展会与会议",
+    icon: "🎤",
+    sections: [
+      {
+        title: "展会 / 客户接待",
+        type: "phrase",
+        items: [
+          { pt: "Bem-vindo ao nosso estande.", pron: "本 维恩多 奥 诺苏 埃斯坦季", zh: "欢迎来到我们的展位。" },
+          { pt: "Qual produto lhe interessa?", pron: "夸尔 普罗杜托 利 因特雷萨", zh: "您对哪类产品感兴趣？" },
+          { pt: "Aqui está nosso catálogo.", pron: "阿基 埃斯塔 诺苏 卡塔洛古", zh: "这是我们的产品目录。" },
+          { pt: "Temos novos modelos este ano.", pron: "泰莫斯 诺沃斯 莫代洛斯 埃斯季 阿努", zh: "今年我们有新款式。" },
+          { pt: "Enviamos amostras após a feira.", pron: "恩维阿莫斯 阿莫斯特拉斯 阿波斯 阿 费拉", zh: "展会后我们寄样品。" },
+        ],
+      },
+      {
+        title: "视频 / 电话会议",
+        type: "phrase",
+        items: [
+          { pt: "Podemos fazer uma videochamada?", pron: "波代莫斯 法泽尔 乌马 维季奥夏马达", zh: "我们可以开个视频会议吗？" },
+          { pt: "Compartilhe sua tela, por favor.", pron: "孔帕尔蒂利 苏阿 泰拉", zh: "请共享一下您的屏幕。" },
+          { pt: "Você pode falar mais devagar?", pron: "沃塞 波季 法拉 玛伊斯 代瓦加尔", zh: "您能说慢一点吗？" },
+          { pt: "Você entendeu?", pron: "沃塞 恩滕迪乌", zh: "您明白了吗？" },
+          { pt: "Vou enviar a apresentação.", pron: "沃伊 恩维阿 阿 阿普雷曾塔桑", zh: "我把演示文稿发您。" },
+          { pt: "Podemos marcar uma reunião?", pron: "波代莫斯 马卡尔 乌马 赫乌尼亚", zh: "我们可以约个会议吗？" },
+        ],
+      },
+    ],
+  },
   ],
 
 };
