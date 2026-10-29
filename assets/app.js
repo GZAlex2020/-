@@ -65,13 +65,15 @@ function speak(text) {
   }, 60);
 }
 
-/* 在线发音：主源 Google TTS，备用源有道词典（le=pt）
+/* 在线发音：主源 Google TTS（三个 Google 主机互为备用，均支持无 Referer）
    关键：浏览器加载音频会自动带 Referer，Google 会拒绝 → 设置 no-referrer */
 function speakOnline(text) {
   const q = encodeURIComponent(text.slice(0, 180));
+  const base = "?ie=UTF-8&client=tw-ob&tl=pt&q=";
   const sources = [
-    "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=pt&q=" + q,
-    "https://dict.youdao.com/dictvoice?audio=" + q + "&le=pt",
+    "https://translate.google.com/translate_tts" + base + q,
+    "https://clients5.google.com/translate_tts" + base + q,
+    "https://translate.googleapis.com/translate_tts" + base + q,
   ];
   tryPlaySources(sources, 0);
 }
