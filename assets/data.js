@@ -19,7 +19,7 @@ const COURSE = {
       sections: [
         {
           title: "字母与发音（巴西葡语要点）",
-          type: "info",
+          type: "phrase",
           items: [
             { pt: "A a", pron: "阿", zh: "开口音，类似中文“阿”" },
             { pt: "E e", pron: "诶/伊", zh: "词尾常弱读成“伊”，如 cliente" },
@@ -28,8 +28,8 @@ const COURSE = {
             { pt: "NH nh", pron: "尼/嗯-y", zh: "鼻音，如 manhã（早晨）" },
             { pt: "LH lh", pron: "利/李", zh: "如 mulher（女人）" },
             { pt: "Ç ç", pron: "s", zh: "发“s”，如 preço（价格）" },
-            { pt: "Ã / Õ", pron: "鼻音", zh: "鼻化元音，如 não（不）" },
-            { pt: "重音规则", pron: "——", zh: "带 ´ 重读；无符号倒数第二音节重读；ã/õ/!/? 结尾倒数第一重读" },
+            { pt: "ã õ", pron: "鼻音", zh: "鼻化元音，如 não（不）" },
+            { pt: "Acento tônico", pron: "阿森托 托尼库", zh: "重音规则：带 ´ 重读；无符号倒数第二音节重读；ã/õ/!/? 结尾倒数第一重读" },
           ],
         },
         {
